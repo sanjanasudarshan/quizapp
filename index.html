@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- First Page -->
+<div id="startPage">
+    <h1>Welcome to the Quiz</h1>
+    <button onclick="startQuiz()">Start</button>
+  </div>
+  
+  <!-- Second Page -->
+  
+  <div id="questionPage" style="display:none;">
+    <p id="question"></p>
+    <iframe src="http://18.206.159.58:7681/"></iframe>
+    <button onclick="nextQuestion()">Next</button>
+  </div>
+  
+  <!-- Third Page -->
+  <div id="endPage" style="display:none;">
+    <h1>Thanks for taking the Quiz!</h1>
+    <p id="answers"></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
